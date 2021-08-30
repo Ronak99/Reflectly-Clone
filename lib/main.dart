@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:reflectly_clone/splash_screens/screens/splash_screen.dart';
 
+import 'splash_screens/screens/auth/login_screen.dart';
+
 void main() {
   runApp(MyApp());
 }
@@ -12,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(fontFamily: "Quicksand"),
-      home: SplashScreen(),
+      home: LoginScreen(),
     );
   }
 }

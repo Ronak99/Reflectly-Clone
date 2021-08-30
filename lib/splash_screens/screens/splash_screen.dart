@@ -3,6 +3,7 @@ import 'package:reflectly_clone/splash_screens/constants/numerics.dart';
 import 'package:reflectly_clone/splash_screens/widgets/anim/splash_button_pop_animation.dart';
 import 'package:reflectly_clone/splash_screens/widgets/anim/splash_delay_text_animation.dart';
 
+import 'widgets/buttons/action_button.dart';
 import 'widgets/square_splash_logo.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -123,31 +124,9 @@ class _SplashScreenState extends State<SplashScreen>
                     SplashButtonPopAnimation(
                       animationDuration: 1000,
                       delay: _elementEntryMap["action_button"]!,
-                      child: Container(
-                        width: 500,
-                        margin: EdgeInsets.symmetric(horizontal: 65),
-                        padding: EdgeInsets.symmetric(vertical: 22),
-                        decoration: BoxDecoration(
-                          color: Colors.white,
-                          boxShadow: [
-                            BoxShadow(
-                                offset: Offset(0, 8),
-                                color: Colors.black.withOpacity(.2),
-                                blurRadius: 10,
-                                spreadRadius: -2)
-                          ],
-                          borderRadius: BorderRadius.circular(50),
-                        ),
-                        alignment: Alignment.center,
-                        child: Text(
-                          "HI, REFLECTLY!",
-                          style: TextStyle(
-                            fontSize: 14,
-                            fontFamily: "Montserrat",
-                            fontWeight: FontWeight.bold,
-                            color: _bgGradientFinalAnimColorEnd,
-                          ),
-                        ),
+                      child: ActionButton(
+                        text: "Hi, Reflectly!",
+                        onPressed: (){},
                       ),
                     ),
                     SizedBox(height: 35),
@@ -160,7 +139,7 @@ class _SplashScreenState extends State<SplashScreen>
                           fontWeight: FontWeight.bold,
                           fontSize: 14.0,
                           fontFamily: "Montserrat",
-                          color: Colors.white.withOpacity(.4),
+                          color: Colors.white.withOpacity(.5),
                         ),
                       ),
                     ),
