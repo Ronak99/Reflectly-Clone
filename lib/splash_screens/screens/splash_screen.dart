@@ -48,7 +48,7 @@ class _SplashScreenState extends State<SplashScreen>
           text,
           style: TextStyle(
             fontWeight: FontWeight.bold,
-            fontSize: 35.0,
+            fontSize: 32.0,
             color: Colors.white,
           ),
         ),
@@ -109,9 +109,10 @@ class _SplashScreenState extends State<SplashScreen>
                       animationDuration: 650,
                       child: Text(
                         "Your new personal\nself-care companion",
+                        textAlign: TextAlign.center,
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
-                          fontSize: 18.0,
+                          fontSize: 20.0,
                           color: Colors.white.withOpacity(.4),
                         ),
                       ),
@@ -125,16 +126,15 @@ class _SplashScreenState extends State<SplashScreen>
                       child: Container(
                         width: 500,
                         margin: EdgeInsets.symmetric(horizontal: 65),
-                        padding: EdgeInsets.symmetric(vertical: 20),
+                        padding: EdgeInsets.symmetric(vertical: 22),
                         decoration: BoxDecoration(
                           color: Colors.white,
                           boxShadow: [
                             BoxShadow(
-                              offset: Offset(0,8),
-                              color: Colors.black.withOpacity(.2),
-                              blurRadius: 10,
-                              spreadRadius: -2
-                            )
+                                offset: Offset(0, 8),
+                                color: Colors.black.withOpacity(.2),
+                                blurRadius: 10,
+                                spreadRadius: -2)
                           ],
                           borderRadius: BorderRadius.circular(50),
                         ),
@@ -142,7 +142,8 @@ class _SplashScreenState extends State<SplashScreen>
                         child: Text(
                           "HI, REFLECTLY!",
                           style: TextStyle(
-                            fontSize: 15,
+                            fontSize: 14,
+                            fontFamily: "Montserrat",
                             fontWeight: FontWeight.bold,
                             color: _bgGradientFinalAnimColorEnd,
                           ),
@@ -157,12 +158,13 @@ class _SplashScreenState extends State<SplashScreen>
                         "I already have an account".toUpperCase(),
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
-                          fontSize: 15.0,
+                          fontSize: 14.0,
+                          fontFamily: "Montserrat",
                           color: Colors.white.withOpacity(.4),
                         ),
                       ),
                     ),
-                    SizedBox(height: 80),
+                    SizedBox(height: 65),
                   ],
                 ),
               ),
