@@ -1,0 +1,1 @@
+const splashScreenBgAnimationDuration = 800;
