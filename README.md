@@ -7,5 +7,5 @@ I tried cloning the animations and basic components utilised by the reflectly ap
 Here's the link to the original app
 [Reflectly on Play Store](https://play.google.com/store/apps/details?id=com.reflectlyApp)
 
-![Demo Gif](./demo/demo_gif.gif)
+<img src="./demo/demo_gif.gif" width=80%>
 
