@@ -9,3 +9,4 @@ Here's the link to the original app
 
 <img src="./demo/demo_gif.gif" width=30%>
 
+Checkout the pixel perfect [video here](https://github.com/Ronak99/Reflectly-Clone/blob/master/demo/screen_recording.mp4?raw=true)
