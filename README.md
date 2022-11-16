@@ -1,16 +1,10 @@
-# reflectly_clone
+# Reflectly Clone
 
-A new Flutter project.
+Simple reflectly clone made in Flutter.
 
-## Getting Started
+I tried cloning the animations and basic components utilised by the reflectly app.
 
-This project is a starting point for a Flutter application.
+Here's the link to the original app
+[Reflectly on Play Store](https://play.google.com/store/apps/details?id=com.reflectlyApp)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Image](https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/v1432049687/qbhv1wb2jsqtf85bnzzm.png)
