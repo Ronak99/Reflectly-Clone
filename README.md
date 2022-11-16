@@ -7,7 +7,5 @@ I tried cloning the animations and basic components utilised by the reflectly ap
 Here's the link to the original app
 [Reflectly on Play Store](https://play.google.com/store/apps/details?id=com.reflectlyApp)
 
-<video>
-  <source src="demo/screen_recording.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
+![Demo Gif](./demo/demo_gif.gif)
+
